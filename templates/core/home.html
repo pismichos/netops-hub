@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+
+{% block title %}NetOps Hub - Infrastructure Monitoring{% endblock %}
+
+{% block content %}
+
+<section class ="py-5">
+    <div class = "container py-5">
+        <div class="row align-items-center">
+            <div class="col-lg-7">
+                <span class="badge text-bg-primary mb-3">
+                    Network Operations Platform
+                </span>
+
+                <h1 class="display-4 fw-bold">
+                    Monitor infrastructure.
+                    Manage incidents.
+                    Stay operational.
+                </h1>
+                 <p class="lead text-secondary my-4">
+                    NetOps Hub provides a central workspace for managing
+                    network devices, availability checks and technical
+                    incidents.
+                </p>
+                <div class="d-flex flex-wrap gap-3">
+                    <a class="btn btn-primary btn-lg" href="#">
+                        Open dashboard
+                    </a>
+
+                    <a class="btn btn-outline-dark btn-lg" href="#">
+                        Explore features
+                    </a>
+                </div>
+            </div>
+             <div class="col-lg-5 mt-5 mt-lg-0">
+                <div class="card border-0 shadow-lg">
+                    <div class="card-body p-4">
+                        <h2 class="h5 mb-4">Platform capabilities</h2>
+
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item px-0">
+                                Device inventory
+                            </li>
+                            <li class="list-group-item px-0">
+                                Availability monitoring
+                            </li>
+                            <li class="list-group-item px-0">
+                                Incident management
+                            </li>
+                            <li class="list-group-item px-0">
+                                Operational reports
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
